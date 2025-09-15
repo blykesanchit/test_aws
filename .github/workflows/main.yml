@@ -20,6 +20,6 @@ jobs:
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
           cd Learning-Management-System-Backend
-          git pull origin https://github.com/blykesanchit/Learning-Management-System-Backend.git
+          git pull https://github.com/blykesanchit/Learning-Management-System-Backend.git
           npm install
           pm2 restart backend
